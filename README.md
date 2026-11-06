@@ -13,6 +13,19 @@ Through this project, I am gaining hands-on experience configuring Linux service
 
 **Project Status:** Ongoing
 
+## Table of Contents
+
+- [Project Objectives](#project-objectives)
+- [Project Architecture](#project-architecture)
+- [Hardware Specifications](#hardware-specifications)
+- [Storage Configuration](#storage-configuration)
+- [Software and Technologies](#software-and-technologies)
+- [Layer 1 — File Synchronization](#layer-1--file-synchronization-using-syncthing)
+- [Layer 2 — Versioned Archive](#layer-2--versioned-file-archive)
+- [Layer 3 — Backup and Data Recovery](#layer-3--backup-and-data-recovery)
+- [Troubleshooting and Technical Evidence](#troubleshooting--technical-evidence)
+
+
 ## Project Objectives
 
 - Build a personal home server using Debian 13 (Trixie).
@@ -198,7 +211,13 @@ Through this layer, I gained practical experience in:
 - Troubleshooting connectivity and service startup problems.
 
 ### Layer 1 Outcome
+Layer 1 was successfully completed, with Syncthing transferring files between my Debian Linux server and Windows 11 laptop over the local network.
 
+However, file synchronization is not the same as a backup. Changes and deletions can also propagate between synchronized devices.
+
+This is why I planned additional archive and backup layers for the home server project.
+
+The completed status refers to my initial functionality tests. The secondary storage drive still requires further reliability checks.
 
 ---
 
